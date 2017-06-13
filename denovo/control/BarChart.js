@@ -84,36 +84,3 @@ d3.json("data/data.json", function(error, data) {
   });
   }
 );
-
-/* define the axis - create a new bottom-oriented and left axis generator
-var xAxis = d3.axisBottom()
-    .scale(x)
-
-var yAxis = d3.axisLeft()
-    .scale(y)
-    .ticks(10); 
-    
-    
-    // add x axis
-  svg.append("g")
-      .attr("class", "x axis")
-      .attr("transform", "translate(0," + h + ")")
-      .call(xAxis)
-    .selectAll("text")
-      .style("text-anchor", "end")
-      .attr("dx", "-.8em")
-      .attr("dy", "-.55em")
-      .attr("transform", "rotate(-90)" );
-    
-  // add y axis    
-  svg.append("g")
-      .attr("class", "y axis")
-      .call(yAxis)
-    .append("text")
-      .attr("transform", "rotate(-90)")
-      .attr("y", 6)
-      .attr("dy", ".71em")
-      .style("text-anchor", "end")
-      .text("Sale");
-*/
- 
